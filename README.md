@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Abstract & Research Overview
+## Abstract & Research Overview
 
 **Neuro-Evolutionary Reservoir Computing (NERC)** is a bio-inspired computing framework that couples **non-linear dendritic leaky-integrator Echo State Networks (ESNs)** with **multi-objective Genetic Algorithm (GA)** optimization for real-time electrocardiogram (ECG) next-beat forecasting and beat-level arrhythmia classification.
 
@@ -23,7 +23,7 @@ While conventional recurrent and transformer architectures require massive param
 
 ---
 
-## 🔬 Experimental Findings & Visualizations
+##  Experimental Findings & Visualizations
 
 ### 1. Next-Beat Waveform Forecasting & Anomaly Tracking
 The dual-readout reservoir predicts next-beat morphology $u(t+1)$ in both time and frequency domains, achieving **48.8% lower RMSE** than persistence baselines and providing a continuous, label-free anomaly score $S_{\text{pred}}$.
@@ -45,7 +45,7 @@ Hyperparameter search optimizes network size $N$, spectral radius $\rho$, sparsi
 
 ---
 
-## 📊 Empirical Benchmark Results
+## Empirical Benchmark Results
 
 ### 1. Comparative Architecture Evaluation (de Chazal Inter-Patient DS2 Split)
 
@@ -69,7 +69,7 @@ Hyperparameter search optimizes network size $N$, spectral radius $\rho$, sparsi
 
 ---
 
-## 🧠 System Architecture & Computational Flow
+## System Architecture & Computational Flow
 
 ```mermaid
 flowchart TD
@@ -105,7 +105,7 @@ flowchart TD
 
 ---
 
-## 📐 Mathematical Formulation
+##  Mathematical Formulation
 
 ### 1. Dendritic Branch Non-linear Gating
 Each neuron possesses $B$ independent dendritic integration zones:
@@ -120,7 +120,7 @@ $$\mathbf{W}^* = \arg\min_{\mathbf{W}} \sum_{t} \|\mathbf{y}_t - \mathbf{W} \mat
 
 ---
 
-## 📂 Repository File Structure
+##  Repository File Structure
 
 ```text
 Neuro-Inspired-Reservoir-Computing/
@@ -151,7 +151,7 @@ Neuro-Inspired-Reservoir-Computing/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Installation
 ```bash
@@ -177,7 +177,7 @@ python run_baselines_ablation.py --data-dir ./mitdb
 
 ---
 
-## 📖 Citation
+## Citation
 
 ```bibtex
 @misc{mondal2024nerc,
@@ -192,5 +192,5 @@ python run_baselines_ablation.py --data-dir ./mitdb
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
