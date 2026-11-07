@@ -1,0 +1,30 @@
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Raw dataset binaries (auto-downloaded via wfdb on first run)
+mitdb/*.dat
+mitdb/*.atr
+mitdb/*.hea
+*.zip
+
+# STRICT EXCLUSION: Academic papers and draft manuscripts
+*.docx
+*.doc
+*.pdf
+*.pptx
+~$*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

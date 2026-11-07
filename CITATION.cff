@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research codebase or algorithms in your research, please cite it as below."
+title: "Neuro-Inspired Reservoir Computing: Genetically Evolved Dendritic Leaky-ESN for Electrocardiogram Forecasting and Arrhythmia Detection"
+version: 2.0.0
+date-released: 2024-10-22
+authors:
+  - family-names: Mondal
+    given-names: Arafat Ali
+    affiliation: "Maulana Abul Kalam Azad University of Technology (MAKAUT), West Bengal, India"
+repository-code: "https://github.com/arafat678/Neuro-Inspired-Reservoir-Computing"
+keywords:
+  - reservoir-computing
+  - echo-state-networks
+  - neuro-inspired-ai
+  - ecg-forecasting
+  - arrhythmia-detection
+  - genetic-algorithms
+  - de-chazal-benchmark
+  - mit-bih
+license: MIT

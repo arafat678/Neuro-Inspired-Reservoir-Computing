@@ -1,0 +1,4 @@
+venv\Scripts\activate
+pip install numpy scipy scikit-learn joblib wfdb matplotlib
+py -m pip install numpy scipy scikit-learn joblib wfdb matplotlib
+py nerc_pipeline_v2.py --synthetic --pop 6 --gens 3 --n-max 150 --n-min 50
